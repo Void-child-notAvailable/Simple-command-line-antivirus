@@ -1,4 +1,5 @@
 Antivirus Sample Program
+
 This is a simple command-line antivirus program designed to scan, inspect, and monitor directories for malware. It also includes functionality for generating and unlocking encryption keys.
 
 
