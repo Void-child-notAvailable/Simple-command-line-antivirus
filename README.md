@@ -55,7 +55,7 @@ Sample tests:
 
 
 Notes:
-*  md5 and sha256 are depricated so warnings will show up during compilation
+* md5 and sha256 are depricated so warnings will show up during compilation
    
 ** Bitcoin wallet not checked properly in binary files
    
