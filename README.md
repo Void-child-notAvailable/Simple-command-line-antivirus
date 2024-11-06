@@ -1,8 +1,10 @@
 Antivirus Sample Program
 This is a simple command-line antivirus program designed to scan, inspect, and monitor directories for malware. It also includes functionality for generating and unlocking encryption keys.
 
+
 Author: 
     csd4616
+
 
 Compilation:
 To compile* the program, use the following command:
@@ -14,10 +16,14 @@ To clean:
     make clean
 
 
+
 Dependencies:
 This program requires the following libraries:
 OpenSSL (-lssl -lcrypto)
 libcurl (-lcurl)
+
+
+
 
 
 Scanning:
@@ -41,6 +47,10 @@ To regain a key from three shares, use the following command***:
 ./antivirus unlock "(shareX1, shareY1)" "(shareX2, shareY2)" "(shareX3, shareY3)"
 
 
+
+
+
+
 Sample tests:
 ./bin/antivirus scan scan_tests/
 ./bin/antivirus inspect inspect_tests/
@@ -52,6 +62,8 @@ Sample tests:
     rm a            /// remove a !!Warning!!
 ./bin/antivirus slice 12
 ./bin/antivirus unlock "(1,306)" "(3,1608)" "(10,13662)"
+
+
 
 
 Notes:
