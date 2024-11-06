@@ -1,0 +1,21 @@
+Introduction
+Over the past few weeks, multiple reports have emerged about the work of KozaliBear, an
+infamous group of cybercriminals that are known for breaking into corporate networks and
+organizations’ cloud environments. This group is known to use viruses to infect the workstations
+of unsuspected employees, gain unauthorized access to classified data and even steal
+proprietary information. What makes this group extremely dangerous is the use of ransomware.
+Ransomware is a type of malware that locks the user’s personal files until a ransom is paid [1].
+Files are encrypted and the only way to get the decryption key is if the victim pays a specified
+amount of money. The KozaliBear group has managed to extort millions of money using
+ransomware. Finally, they usually ask for money in the form of cryptocurrencies (e.g. Bitcoin) [2]
+since they are not trivial (but not impossible) to trace.
+You are a cybersecurity engineer working for a leading manufacturer of automotive
+electronics. Last night, your supervisor was informed that one of your competitors was attacked
+by KozaliBear, and a ransomware was installed into all of their systems making them practically
+unusable. Your supervisor is concerned that you might be the next target or that some of your
+workstations might have already been infected. Your competitors have kindly shared with you,
+Indicators of Compromise (IoC) [3]. These are digital evidence that suggest that a system may
+have been breached. You have been tasked to improve the security infrastructure of your
+company. You are required to ensure that your systems have not been compromised and to
+create a secure environment, where highly confidential files can be stored securely. Finally, you
+would like to support other cybersecurity engineers and help them detect this specific attack.
