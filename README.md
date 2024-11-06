@@ -56,5 +56,7 @@ Sample tests:
 
 Notes:
 *  md5 and sha256 are depricated so warnings will show up during compilation
+   
 ** Bitcoin wallet not checked properly in binary files
+   
 *** Proper input would be (x,y) but the command line is weird about the parenthesis so add the ""
