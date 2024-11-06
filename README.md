@@ -53,14 +53,20 @@ To regain a key from three shares, use the following command***:
 
 Sample tests:
 ./bin/antivirus scan scan_tests/
+
 ./bin/antivirus inspect inspect_tests/
+
 ./bin/antivirus monitor /path/
+
     touch a
     cat a           /// copy a
     touch a.locked  /// create a.locked
     nano a.locked   /// encrypt contents of a to a.locked
     rm a            /// remove a !!Warning!!
+
+    
 ./bin/antivirus slice 12
+
 ./bin/antivirus unlock "(1,306)" "(3,1608)" "(10,13662)"
 
 
